@@ -1,6 +1,6 @@
 while True:
     print("Sound is: " + input.sound_level())
-    if input.sound_level() > 150:
+    if input.sound_level() > 130:
         light.set_pixel_color(0, light.rgb(255, 100, 0))
         light.set_pixel_color(1, light.rgb(245, 255, 0))
         light.set_pixel_color(2, light.rgb(20, 245, 20))
@@ -13,3 +13,4 @@ while True:
         light.set_pixel_color(9, light.rgb(242, 48, 78))
     else:
         light.clear()
+
