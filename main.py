@@ -1,6 +1,6 @@
 while True:
     print("Sound is: " + input.sound_level())
-    if input.sound_level() > 140:
+    if input.sound_level() > 150:
         pause(200)
         light.clear()
         pause(200)

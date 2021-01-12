@@ -1,6 +1,6 @@
 while (true) {
     console.log("Sound is: " + input.soundLevel())
-    if (input.soundLevel() > 140) {
+    if (input.soundLevel() > 150) {
         pause(200)
         light.clear()
         pause(200)
