@@ -1,6 +1,6 @@
 while (true) {
     console.log("Sound is: " + input.soundLevel())
-    if (input.soundLevel() < 6) {
+    if (input.soundLevel() > 20) {
         light.setPixelColor(0, light.rgb(255, 100, 0))
         light.setPixelColor(1, light.rgb(245, 255, 0))
         light.setPixelColor(2, light.rgb(20, 245, 20))
