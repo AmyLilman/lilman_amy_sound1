@@ -10,4 +10,4 @@ while True:
     if input.light_level() > 9:
         music.power_up.play()
     else:
-        light.clear()
+        music.stop_all_sounds()

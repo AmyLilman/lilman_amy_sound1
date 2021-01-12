@@ -9,7 +9,7 @@ while (true) {
     if (input.lightLevel() > 9) {
         music.powerUp.play()
     } else {
-        light.clear()
+        music.stopAllSounds()
     }
     
 }
