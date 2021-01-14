@@ -7,7 +7,7 @@
 while (true) {
     console.log("Light Level: " + input.lightLevel())
     if (input.lightLevel() > 2) {
-        music.powerUp.play()
+        music.magicWand.play()
     } else {
         music.stopAllSounds()
     }
