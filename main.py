@@ -7,7 +7,7 @@
 
 while True:
     print("Light Level: " + input.light_level())
-    if input.light_level() > 9:
+    if input.light_level() > 2:
         music.power_up.play()
     else:
         music.stop_all_sounds()

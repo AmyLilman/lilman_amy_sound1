@@ -6,7 +6,7 @@
 //         light.clear()
 while (true) {
     console.log("Light Level: " + input.lightLevel())
-    if (input.lightLevel() > 9) {
+    if (input.lightLevel() > 2) {
         music.powerUp.play()
     } else {
         music.stopAllSounds()
