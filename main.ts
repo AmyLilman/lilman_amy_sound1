@@ -6,7 +6,7 @@
 //         light.clear()
 while (true) {
     console.log("Light Level: " + input.lightLevel())
-    if (input.lightLevel() > 2) {
+    if (input.lightLevel() > 0) {
         music.magicWand.play()
     } else {
         music.stopAllSounds()

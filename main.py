@@ -7,7 +7,7 @@
 
 while True:
     print("Light Level: " + input.light_level())
-    if input.light_level() > 2:
+    if input.light_level() > 0:
         music.magic_wand.play()
     else:
         music.stop_all_sounds()
