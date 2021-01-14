@@ -6,4 +6,5 @@
 #        light.clear()
 
 
-music.magic_wand.play()
+if input.light_level() > 5:
+    music.magic_wand.play()
