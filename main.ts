@@ -4,7 +4,9 @@
 //         light.show_animation(light.rainbowAnimation, 500)
 //     else:
 //         light.clear()
-if (input.lightLevel() > 5) {
-    music.magicWand.play()
+while (true) {
+    if (input.lightLevel() > 5) {
+        music.baDing.playUntilDone()
+    }
+    
 }
-

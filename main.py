@@ -5,6 +5,6 @@
 #    else:
 #        light.clear()
 
-
-if input.light_level() > 5:
-    music.magic_wand.play()
+while True:
+    if input.light_level() > 5:
+        music.ba_ding.play_until_done()
