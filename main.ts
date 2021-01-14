@@ -8,7 +8,6 @@ while (true) {
     console.log("Light Level: " + input.lightLevel())
     if (input.lightLevel() > 5) {
         music.magicWand.play()
-        music.setVolume(40)
     } else {
         music.stopAllSounds()
     }
