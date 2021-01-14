@@ -6,7 +6,6 @@
 #        light.clear()
 
 while True:
-    print("Light Level: " + input.light_level())
     if input.light_level() > 5:
         music.magic_wand.play()
     else:
