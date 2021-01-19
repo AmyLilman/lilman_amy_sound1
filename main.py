@@ -9,4 +9,4 @@
 #    if input.light_level() > 8:
 #        music.ba_ding.play_until_done()
 
-music.play_melody("E B C5 A B G A F ", 150)
+music.play_melody("DD Bb C D D C D Eb ", 150)
