@@ -5,6 +5,8 @@
 #    else:
 #        light.clear()
 
-while True:
-    if input.light_level() > 8:
-        music.ba_ding.play_until_done()
+#while True:
+#    if input.light_level() > 8:
+#        music.ba_ding.play_until_done()
+
+music.play_melody("E B C5 A B G A F ", 150)

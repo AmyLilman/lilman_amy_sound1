@@ -4,9 +4,7 @@
 //         light.show_animation(light.rainbowAnimation, 500)
 //     else:
 //         light.clear()
-while (true) {
-    if (input.lightLevel() > 8) {
-        music.baDing.playUntilDone()
-    }
-    
-}
+// while True:
+//     if input.light_level() > 8:
+//         music.ba_ding.play_until_done()
+music.playMelody("E B C5 A B G A F ", 150)
