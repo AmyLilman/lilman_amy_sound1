@@ -6,5 +6,5 @@
 #        light.clear()
 
 while True:
-    if input.light_level() > 5:
+    if input.light_level() > 8:
         music.ba_ding.play_until_done()

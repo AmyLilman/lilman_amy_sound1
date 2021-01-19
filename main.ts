@@ -5,7 +5,7 @@
 //     else:
 //         light.clear()
 while (true) {
-    if (input.lightLevel() > 5) {
+    if (input.lightLevel() > 8) {
         music.baDing.playUntilDone()
     }
     
